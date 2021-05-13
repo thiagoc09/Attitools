@@ -191,10 +191,12 @@ span {
 
 .col21 {
   position: absolute;
-  right: 5%;
+  right: 10%;
   background-color: #D4973A;
-  background-size: 40px;
-} /**trazer o elemento para cima, ajustar o posicionamento do fundo amarelo(laranja) e realocar na seção **/
+  background-size: 40px;	
+  margin-top: -28%;
+
+} /**trazer o elemento para cima (feito), ajustar o posicionamento do fundo amarelo(laranja) e realocar na seção Ajustar tamanho da imagem **/
 
 
 .secao4 {
@@ -205,11 +207,12 @@ span {
 .col31 { 
   position: absolute;
   margin-bottom: -200px;
-  right: 5%;
+  right: 15%;
   max-width: 350px;
   text-align: center;
   padding: 10px;
-} /**trazer o elemento para cima! e realocar na seção **/
+  margin-top: -25%;
+} /**trazer o elemento para cima!e realocar na seção (feito) **/
 
 .secao5 {
   padding: 50px 0px 50px 50px;
