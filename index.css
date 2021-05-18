@@ -214,6 +214,15 @@ span {
   margin-top: -25%;
 } /**trazer o elemento para cima!e realocar na seção (feito) **/
 
+.bot5 {
+  text-align: right;
+  border: solid;
+  border-color: black;
+  background-color: #f1f1f1;
+  color: black;
+  size: 200px;
+}
+
 .secao5 {
   padding: 50px 0px 50px 50px;
   background-color: #322F26;
