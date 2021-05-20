@@ -143,6 +143,7 @@ span {
 .col12 {
   text-align: center;
   padding: 10px;
+<<<<<<< Updated upstream:public/css/index.css
   height: 400px;
 }
 
@@ -161,6 +162,9 @@ span {
   top: 0px;
   right: 0px;
   bottom: 0px;
+=======
+  margin-top: -100%;
+>>>>>>> Stashed changes:index.css
 }
 
 .bot3 {
@@ -205,10 +209,16 @@ span {
   position: absolute;
   right: 10%;
   background-color: #D4973A;
+<<<<<<< Updated upstream:public/css/index.css
   background-size: 40px;	
   margin-top: -20%;
 
 } /**trazer o elemento para cima (feito), ajustar o posicionamento do fundo amarelo(laranja) e realocar na seção Ajustar tamanho da imagem **/
+=======
+  background-size: 40px;
+  margin-top: -20%;
+} /**trazer o elemento para cima, ajustar o posicionamento do fundo amarelo(laranja) e realocar na seção **/
+>>>>>>> Stashed changes:index.css
 
 
 .secao4 {
@@ -224,6 +234,7 @@ span {
   text-align: center;
   padding: 10px;
   margin-top: -25%;
+<<<<<<< Updated upstream:public/css/index.css
 } /**trazer o elemento para cima!e realocar na seção (feito) **/
 
 .bot5 {
@@ -234,6 +245,10 @@ span {
   color: black;
   size: 200px;
 }
+=======
+} /**trazer o elemento para cima! e realocar na seção **/
+>>>>>>> Stashed changes:index.css
+
 
 .secao5 {
   padding: 50px 0px 50px 50px;
@@ -251,11 +266,19 @@ span {
   size: 200px;
 }
 
+<<<<<<< Updated upstream:public/css/index.css
 
+=======
+>>>>>>> Stashed changes:index.css
 .col41{
   margin-left: 40%;
   margin-top: -31%;
 }
+<<<<<<< Updated upstream:public/css/index.css
+=======
+
+
+>>>>>>> Stashed changes:index.css
 
 .footer-basic {
   padding:40px 0;
