@@ -152,7 +152,6 @@ span {
   top: -20px;
   right: 40px;
   bottom: 50px;
-  background-color: #FF9100;
 }
 
 .texto-decoracao {
@@ -203,10 +202,11 @@ span {
 
 .col21 {
   position: absolute;
-  right: 10%;
+  left: 20px;
+  top: -20px;
+  right: 40px;
+  bottom: 50px;
   background-color: #D4973A;
-  background-size: 40px;	
-  margin-top: -20%;
 
 } /**trazer o elemento para cima (feito), ajustar o posicionamento do fundo amarelo(laranja) e realocar na seção Ajustar tamanho da imagem **/
 
@@ -218,13 +218,17 @@ span {
 
 .col31 { 
   position: absolute;
-  margin-bottom: -200px;
-  right: 15%;
-  max-width: 350px;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+} /**trazer o elemento para cima!e realocar na seção (feito) **/
+
+.col131 {
   text-align: center;
   padding: 10px;
-  margin-top: -25%;
-} /**trazer o elemento para cima!e realocar na seção (feito) **/
+  height: 400px;
+}
 
 .bot5 {
   text-align: right;
@@ -253,11 +257,16 @@ span {
 }
 
 .col41{
-  margin-left: 40%;
-  margin-top: -31%;
+  position: absolute;
+  left: -150px;
+  top: -10px;
+  bottom: 50px;
+  right: 200px;
 }
 
 .footer-basic {
+  width: 100%;
+  border-top: 1px solid #f1f1f1;
   padding:40px 0;
   background-color: #322F26;
   color: #D4973A;
