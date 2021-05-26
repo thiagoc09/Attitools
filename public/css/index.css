@@ -1,7 +1,11 @@
- .limitador{
-   max-width: 1200px;
-	 margin: 0px auto;
- }
+.limitador{
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+img {
+  max-width: 100%;
+}
 
 .header {
     overflow: hidden;
@@ -256,6 +260,14 @@ span {
   size: 200px;
 }
 
+.mail {
+  color: black;
+}
+
+.msg{
+  color: black;
+}
+
 .col41{
   position: absolute;
   left: -150px;
@@ -323,4 +335,8 @@ margin-left: -10%;
 
 .iconefacebook{
 margin-left: -10%;
+}
+
+.contact {
+  margin: 0px 0px 20px;
 }

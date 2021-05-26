@@ -30,7 +30,7 @@ body {
   border-radius: 40px;
   border: 2px solid var(--color);
   background-color: transparent;
-  color: black
+  color: black;
 }
 
 .input2 {
