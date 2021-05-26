@@ -1,11 +1,7 @@
-.limitador{
-  max-width: 1200px;
-  margin: 0px auto;
-}
-
-img {
-  max-width: 100%;
-}
+ .limitador{
+   max-width: 1200px;
+	 margin: 0px auto;
+ }
 
 .header {
     overflow: hidden;
@@ -278,7 +274,7 @@ span {
 
 .footer-basic {
   width: 100%;
-  border-top: 1px solid #D4973A;
+  border-top: 1px solid #f1f1f1;
   padding:40px 0;
   background-color: #322F26;
   color: #D4973A;
@@ -335,8 +331,4 @@ margin-left: -10%;
 
 .iconefacebook{
 margin-left: -10%;
-}
-
-.contact {
-  margin: 0px 0px 20px;
 }
