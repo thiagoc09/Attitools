@@ -23,6 +23,7 @@
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
+    padding-left: 43px;
   }
   
   .header a:hover {
@@ -33,6 +34,13 @@
   .header a.active {
     background-color: dodgerblue;
     color: white;
+    margin-right: 20px;
+  }
+
+  .header a.active2 {
+    background-color: rgb(255, 158, 30);
+    color: white;
+    margin-right: 14px;
   }
   
   .header-right {
