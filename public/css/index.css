@@ -260,14 +260,6 @@ span {
   size: 200px;
 }
 
-.mail {
-  color: black;
-}
-
-.msg{
-  color: black;
-}
-
 .col41{
   position: absolute;
   left: -150px;
@@ -278,7 +270,7 @@ span {
 
 .footer-basic {
   width: 100%;
-  border-top: 1px solid #f1f1f1;
+  border-top: 1px solid #D4973A;
   padding:40px 0;
   background-color: #322F26;
   color: #D4973A;
