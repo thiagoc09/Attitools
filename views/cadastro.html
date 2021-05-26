@@ -8,129 +8,21 @@
     <title>Cadastro</title>
 </head>
 <body>
-    <div class="header">
-        <h1> Registre-se</h1>
-   </div>
-    <form action="/formulario">
-        <div class="formulario-geral">
-        <p> 
-            <label for="Nome Completo"> Nome Completo:</label>
-            <input id="Nome Completo" type="text" placeholder="Nome Completo *" name="name" required>
-        </p>
-        <p>
-            <label for="E-mail"> E-mail:</label> 
-            <input id="E-mail" type="email" placeholder="E-mail *" name="mail" required>
-        </p>
-        <p>
-            <label for="Senha"> Senha:</label>
-            <input id="Senha" type="password" placeholder="Senha *" name="senha" required> 
-        </p>
-        <p> 
-            <label for="CPF"> CPF:</label>
-            <input id="CPF" type="text" placeholder="CPF *" name="CPF" required>
-        </p>
-        <p> 
-            <label for="Telefone"> Telefone:</label>
-            <input id="Telefone" type="tel" placeholder="Telefone" name="telefone">
-        </p>
-        <p> 
-            <label for="Aniversário"> Aniversário:</label>
-            <input id="Aniversário" type="date" placeholder="Aniversário" name="aniversário"> 
-        </p>
-        <p> 
-            <label for="CEP"> CEP:</label>
-            <input id="CEP" type="text" placeholder="CEP" name="CEP">
-        </p>
-        <p> 
-            <label for="Endereço"> Endereço:</label>
-            <input id="Endereço" type="text" placeholder="Endereço" name="endereço">
-        </p>
-        <p> 
-            <label for="Complemento"> Complemento:</label>
-             <input id="Complemento" type="text" placeholder="Complemento" name="complemento"> 
-        </p>
-        <p> 
-            <label for="Número"> Número:</label>
-            <input id="Número" type="number" placeholder="Número" name="número" min="0"> 
-        </p>
-        <p> 
-            <label for="Estado"> Estado:</label>
-            <select name="estado" id="Estado">
-                <option value="">--Selecione seu Estado--</option>
-                <option value="Acre">Acre</option>
-                <option value="Alagoas">Alagoas</option>
-                <option value="Amapá">Amapá</option>
-                <option value="Amazonas">Amazonas</option>
-                <option value="Bahia">Bahia</option>
-                <option value="Ceará">Ceará</option>
-                <option value="Distrito Federal">Distrito Federal</option>
-                <option value="Espirito Santo">Espirito Santo</option>
-                <option value="Goiás">Goiás</option>
-                <option value="Maranhão">Maranhão</option>
-                <option value="Mato Grosso">Mato Grosso</option>
-                <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
-                <option value="Minas Gerais">Minas Gerais</option>
-                <option value="Pará">Pará</option>
-                <option value="Paraíba">Paraíba</option>
-                <option value="Paraná">Paraná</option>
-                <option value="Pernambuco">Pernambuco</option>
-                <option value="Piaui">Piaui</option>
-                <option value="Rio de Janeiro">Rio de Janeiro</option>
-                <option value="Rio Grande do Norte">Rio Grande do Norte</option>
-                <option value="Rio Grande do Sul">Rio Grande do Sul</option>
-                <option value="Rondônia">Rondônia</option>
-                <option value="Roraima">Roraima</option>
-                <option value="Santa Catarina">Santa Catarina</option>
-                <option value="São Paulo">São Paulo</option>
-                <option value="Sergipe">Sergipe</option>
-                <option value="Tocantins">Tocantins</option>
-            </select>
-        </p>
-        <p> 
-            <label for="Cidade"> Cidade:</label>
-            <select name="cidade" id="Cidade">
-                <option value="">--Selecione sua Cidade--</option>
-                <option value="Rio Branco">Rio Branco</option>
-                <option value="Maceió">Maceió</option>
-                <option value="Macapá">Macapá</option>
-                <option value="Manaus">Manaus</option>
-                <option value="Salvador">Salvador</option>
-                <option value="Fortaleza">Fortaleza</option>
-                <option value="Brasília">Brasília</option>
-                <option value="Vitória">Vitória</option>
-                <option value="Goiânia">Goiânia</option>
-                <option value="São Luís">São Luís</option>
-                <option value="Cuiabá">Cuiabá</option>
-                <option value="Campo Grande">Campo Grande</option>
-                <option value="Belo Horizonte">Belo Horizonte</option>
-                <option value="Belém">Belém</option>
-                <option value="João Pessoa">João Pessoa</option>
-                <option value="Curitiba">Curitiba</option>
-                <option value="Recife">Recife</option>
-                <option value="Teresina">Teresina</option>
-                <option value="Rio de Janeiro">Rio de Janeiro</option>
-                <option value="Natal">Natal</option>
-                <option value="Porto Alegre">Porto Alegre</option>
-                <option value="Porto Velho">Porto Velho</option>
-                <option value="Boa Vista">Boa Vista</option>
-                <option value="Florianópolis">Florianópolis</option>
-                <option value="São Paulo">São Paulo</option>
-                <option value="Aracaju">Aracaju</option>
-                <option value="Palmas">Palmas</option>
-            </select> 
-        </p> 
-        <p> 
-            <label for="Termos de uso"> Concordo com os <a href="/termos">Termos de Uso</a></label>
-            <input id="Termos de uso" type="checkbox" name="termos de uso" required>
-        </p>
+    <div class="container">
 
-        <a href="/" class="botao">Voltar</a>
-        <button class="botao2">Enviar</button>
-      </div>
-    </form>
+      <h1>CADASTRO</h1>
 
+      <input type="text" name="primeironome" id="primeironome" class="input" placeholder="Primeiro Nome" required>
+      <input type="text" name="ultimoonome" id="ultimoonome" class="input" placeholder="Sobrenome" required>
+      <input type="text" name="username" id="username" class="input" placeholder="Nome do Usuário" required>
+      <input type="number" name="CPF" id="CPF" class="input2" placeholder="CPF" required>
+      <input type="email" name="email" id="email" class="input2" placeholder="Email" required>
+      <input type="password" name="senha" id="senha" class="input" placeholder="Senha" required>
+      <input type="password" name="csenha" id="csenha" class="input" placeholder="Confirmar Senha" required>
 
+      <a class="bot" href="#">Registrar</a>
+      <a class="bot" href="#">Voltar</a>
 
-
+    </div>
 </body>
 </html>
