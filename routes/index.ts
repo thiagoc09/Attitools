@@ -12,6 +12,10 @@ class Index {
 	public async empresas(req: app.Request, res: app.Response) {
 		res.sendFile(app.dir.views + "/empresas.html");
 	}
+
+	public async faq(req: app.Request, res: app.Response) {
+		res.sendFile(app.dir.views + "/faq.html");
+	}
 }
 
 export = Index;
