@@ -1,3 +1,9 @@
+
+body{
+background-color: #F2F2F2;
+
+}
+
 .limitador{
     max-width: 1200px;
     margin: 0px auto;
