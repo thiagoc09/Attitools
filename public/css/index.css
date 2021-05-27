@@ -1,7 +1,11 @@
- .limitador{
-   max-width: 1200px;
-	 margin: 0px auto;
- }
+.limitador{
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+img {
+  max-width: 100%;
+}
 
 .header {
     overflow: hidden;
@@ -23,6 +27,7 @@
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
+    padding-left: 43px;
   }
   
   .header a:hover {
@@ -33,6 +38,13 @@
   .header a.active {
     background-color: dodgerblue;
     color: white;
+    margin-right: 20px;
+  }
+
+  .header a.active2 {
+    background-color: rgb(255, 158, 30);
+    color: white;
+    margin-right: 14px;
   }
   
   .header-right {
@@ -265,7 +277,7 @@ span {
 
 .footer-basic {
   width: 100%;
-  border-top: 1px solid #f1f1f1;
+  border-top: 1px solid #D4973A;
   padding:40px 0;
   background-color: #322F26;
   color: #D4973A;
@@ -322,4 +334,8 @@ margin-left: -10%;
 
 .iconefacebook{
 margin-left: -10%;
+}
+
+.contact {
+  margin: 0px 0px 20px;
 }
