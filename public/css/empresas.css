@@ -22,7 +22,7 @@
    
    .header a.logo {
      font-size: 25px;
-     font-weight: bold;
+     font-weight: 360;
      padding-left: 43px;
    }
    
@@ -59,17 +59,68 @@
      }
    }
 
+   .logo{
+     font-weight: bold;
+   }
    
-  .banner {
-    padding: 100px 0px 50px 50px;
+
+   .body {
+    padding: 80px 0px 50px 50px;
     background-color: white;
-  }
+    font-size: 50px;
+    text-align: center;
+}.col-sm {
+  border-width: medium;
+  border-style: solid;
+  border-color: #f1f1f1;
+}
 
-  .banner-fundo {
-    position: relative;
-    background-image: url("/public/img/fundo_empresa.jpg");
-    min-height: 350px;
-  }
-
-     
+.s2h {
+ color: #D4973A;
+ padding-top: 30px;
+}
+span {
+ color: white;
  
+}
+
+.col1 {
+ background-color: #322F26;
+ text-align: center;
+ height: 400px;
+}
+
+.bot2 {
+ text-align: left;
+ margin-top: 100px;
+ border: solid;
+ border-color: white;
+ background-color: #322F26;
+ color: #D4973A;
+ size: 200px;
+} 
+
+.col12 {
+ text-align: center;
+ padding: 10px;
+ height: 400px;
+}
+
+.decoracao {
+ position: absolute;
+ left: 20px;
+ top: -20px;
+ right: 40px;
+ bottom: 50px;
+}
+
+.empresas2 p{
+  text-align: center;
+  padding-top: 10px;
+}
+
+p {
+  margin: 0 0 10px;
+  text-align: center;
+  font-size: 15px;
+}

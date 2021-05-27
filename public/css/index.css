@@ -1,3 +1,8 @@
+.limitador-h{
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
 .limitador{
   max-width: 1200px;
   margin: 0px auto;
@@ -339,3 +344,4 @@ margin-left: -10%;
 .contact {
   margin: 0px 0px 20px;
 }
+
