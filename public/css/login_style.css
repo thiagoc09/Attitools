@@ -175,12 +175,14 @@ border-radius:30px;
   color: #0447c4;
 }
 body {
-  background: #e4ab56; /* fallback for old browsers */
+  background: #e4ab56;
   background: -webkit-linear-gradient(right, #8DC26F, #e4ab56);
   background: -moz-linear-gradient(right, #8DC26F, #e4ab56);
   background: -o-linear-gradient(right, #8DC26F, #e4ab56);
   background: linear-gradient(to left, #8DC26F, #e4ab56);
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;      
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;      
 }
