@@ -74,10 +74,15 @@
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
+  padding-top: 10px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  font-size: x-large;
+  color: white;
   
 }
+
+
 .form input {
   font-family: FontAwesome, "Roboto", sans-serif;
   outline: 0;
@@ -186,3 +191,4 @@ body {
   margin: 0;
   padding: 0;      
 }
+
