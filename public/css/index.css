@@ -90,6 +90,12 @@ img {
     max-width: 600px;
     text-align: center;
     padding: 10px;
+      width: 500px;
+  }
+
+  .clarice {
+    padding-left: 170px;
+    padding-top: -10px;
   }
 
   .bot1 {
@@ -97,9 +103,11 @@ img {
   }
   
   .banner-mensagem h2 {
-    color: #FF9100;
-    font-size: 14px;
+    color: #FFFFFF;
+    font-size: 22px;
     margin: 0px 0px 14px;
+    padding-bottom: 13px;
+    padding-top: 30px;
   }
   
   .banner-imagem-div {
@@ -108,6 +116,8 @@ img {
     right: 30%;
     left: -40px;
     text-align: right;
+    font-size: 16px;
+    padding-top: 70px;
   }
   
   .banner-imagem {
@@ -177,6 +187,13 @@ span {
   top: 0px;
   right: 0px;
   bottom: 0px;
+}
+
+.texto-decoracao2 {
+  padding-top: 20px; 
+  font-size: 18px;
+  padding-left: 20px;
+    padding-right: 20px;
 }
 
 .bot3 {
