@@ -10,6 +10,8 @@
 
 img {
   max-width: 100%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+
 }
 
 .header {
@@ -77,6 +79,7 @@ img {
     position: relative;
     background-color: #D4973A;
     min-height: 350px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
   
   .banner-mensagem {
@@ -90,7 +93,8 @@ img {
     max-width: 600px;
     text-align: center;
     padding: 10px;
-      width: 500px;
+      width: 533px;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
 
   .clarice {
@@ -123,12 +127,14 @@ img {
   .banner-imagem {
     width: 100%;
     max-width: 500px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
 
 
  .secao2 {
   background-color: #f1f1f1;
   padding: 50px 0px 50px 50px;
+ 
  }
 
  .container {
@@ -140,6 +146,8 @@ img {
    border-width: medium;
    border-style: solid;
    border-color: #f1f1f1;
+
+
  }
 
 .s2h {
@@ -155,6 +163,7 @@ span {
   background-color: #322F26;
   text-align: center;
   height: 400px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 .bot2 {
@@ -217,6 +226,7 @@ span {
   text-align: center;
   background-color: white;
   display: inline-block;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 .secao3 {
