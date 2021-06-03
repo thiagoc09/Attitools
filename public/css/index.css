@@ -102,10 +102,6 @@ img {
     padding-top: -10px;
   }
 
-  .bot1 {
-    color: #006EFF;
-  }
-  
   .banner-mensagem h2 {
     color: #FFFFFF;
     font-size: 22px;
@@ -129,7 +125,6 @@ img {
     max-width: 500px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
-
 
  .secao2 {
   background-color: #f1f1f1;
@@ -165,16 +160,6 @@ span {
   height: 400px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-
-.bot2 {
-  text-align: left;
-  margin-top: 100px;
-  border: solid;
-  border-color: white;
-  background-color: #322F26;
-  color: #D4973A;
-  size: 200px;
-} 
 
 .col12 {
   text-align: center;
@@ -237,13 +222,6 @@ span {
   text-align: left;
 }
 
-.bot4{
-  border: solid;
-  border-color: black;
-  background-color: white;
-  color: black;
-}
-
 .col21 {
   position: absolute;
   left: 20px;
@@ -287,16 +265,6 @@ span {
   padding: 50px 0px 50px 50px;
   background-color: #322F26;
   color: white;
-}
-
-.bot6 {
-  text-align: left;
-  margin-top: 100px;
-  border: solid;
-  border-color: white;
-  background-color: #322F26;
-  color: #D4973A;
-  size: 200px;
 }
 
 .col41{
