@@ -35,6 +35,7 @@ img {
     font-size: 25px;
     font-weight: bold;
     padding-left: 43px;
+    text-decoration:none; 
   }
   
   .header a:hover {
@@ -46,16 +47,19 @@ img {
     background-color: dodgerblue;
     color: white;
     margin-right: 20px;
+    text-decoration:none; 
   }
 
   .header a.active2 {
     background-color: rgb(255, 158, 30);
     color: white;
     margin-right: 14px;
+    text-decoration:none; 
   }
   
   .header-right {
     float: right;
+    text-decoration:none; 
   }
   
   @media screen and (max-width: 500px) {
