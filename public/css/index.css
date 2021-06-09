@@ -35,6 +35,7 @@ img {
     font-size: 25px;
     font-weight: bold;
     padding-left: 43px;
+    text-decoration:none; 
   }
   
   .header a:hover {
@@ -46,17 +47,23 @@ img {
     background-color: dodgerblue;
     color: white;
     margin-right: 20px;
+
     padding:12px 66px 12px 66px;
+
+    text-decoration:none; 
+
   }
 
   .header a.active2 {
     background-color: rgb(255, 158, 30);
     color: white;
     margin-right: 14px;
+    text-decoration:none; 
   }
   
   .header-right {
     float: right;
+    text-decoration:none; 
   }
   
   @media screen and (max-width: 500px) {
@@ -103,10 +110,6 @@ img {
     padding-top: -10px;
   }
 
-  .bot1 {
-    color: #006EFF;
-  }
-  
   .banner-mensagem h2 {
     color: #FFFFFF;
     font-size: 22px;
@@ -130,7 +133,6 @@ img {
     max-width: 500px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
-
 
  .secao2 {
   background-color: #f1f1f1;
@@ -167,16 +169,6 @@ span {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-.bot2 {
-  text-align: left;
-  margin-top: 100px;
-  border: solid;
-  border-color: white;
-  background-color: #322F26;
-  color: #D4973A;
-  size: 200px;
-} 
-
 .col12 {
   text-align: center;
   padding: 10px;
@@ -206,13 +198,13 @@ span {
     padding-right: 20px;
 }
 
-.bot3 {
-  text-align: right;
-  border: solid;
-  border-color: black;
-  background-color: #f1f1f1;
-  color: black;
-  size: 200px;
+.btn.btn-primary {
+  margin-top: 50px;
+}
+
+
+.btn.btn-default {
+  margin-top: 50px;
 }
 
 .pat {
@@ -238,13 +230,6 @@ span {
   text-align: left;
 }
 
-.bot4{
-  border: solid;
-  border-color: black;
-  background-color: white;
-  color: black;
-}
-
 .col21 {
   position: absolute;
   left: 20px;
@@ -252,7 +237,7 @@ span {
   right: 40px;
   bottom: 90px;
   background-color: #D4973A;
-} /**trazer o elemento para cima (feito), ajustar o posicionamento do fundo amarelo(laranja) e realocar na seção Ajustar tamanho da imagem **/
+} 
 
 
 .secao4 {
@@ -266,7 +251,7 @@ span {
   top: 0px;
   right: 0px;
   bottom: 0px;
-} /**trazer o elemento para cima!e realocar na seção (feito) **/
+}
 
 .col131 {
   text-align: center;
@@ -288,16 +273,6 @@ span {
   padding: 50px 0px 50px 50px;
   background-color: #322F26;
   color: white;
-}
-
-.bot6 {
-  text-align: left;
-  margin-top: 100px;
-  border: solid;
-  border-color: white;
-  background-color: #322F26;
-  color: #D4973A;
-  size: 200px;
 }
 
 .col41{

@@ -11,12 +11,11 @@
   },
   "main": "src/app.js",
   "dependencies": {
-    "teem": ">=0.0.16"
+    "teem": "0.0.18"
   },
   "devDependencies": {
     "@types/express": "4.17.11",
     "@types/express-serve-static-core": "4.17.18",
-    "@types/mysql": "2.15.17",
     "@types/node": "14.14.21"
   },
   "engines": {
