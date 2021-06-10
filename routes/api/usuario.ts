@@ -22,11 +22,7 @@ class UsuarioApi {
 			usuario.email = usuario.email.trim();
 		}
 
-		if (usuario.login) {
-			usuario.login = usuario.login.trim();
-		}
-
-		if (!usuario.nome || !usuario.email || !usuario.login || !usuario.senha) {
+		if (!usuario.nome || !usuario.email || !usuario.senha) {
 			res.status(400).json("Dados inválidos");
 			return;
 		}
@@ -41,11 +37,6 @@ class UsuarioApi {
 			return;
 		}
 
-		if (usuario.login.length > 50) {
-			res.status(400).json("Login muito longo");
-			return;
-		}
-
 		let erro: string = null;
 
 		await app.sql.connect(async (sql) => {
@@ -54,12 +45,12 @@ class UsuarioApi {
 				// NUNCA GRAVAR A SENHA DIRETO NO BANCO!
 				const hash = await GeradorHash.criarHash(usuario.senha);
 
-				await sql.query("INSERT INTO usuario (nome, email, login, senha) VALUES (?, ?, ?, ?)", [usuario.nome, usuario.email, usuario.login, hash]);
+				await sql.query("INSERT INTO usuario (nome, email, senha) VALUES (?, ?, ?)", [usuario.nome, usuario.email, hash]);
 
 				usuario.id = await sql.scalar("SELECT last_insert_id()");
 			} catch (e) {
 				if (e.code && e.code === "ER_DUP_ENTRY")
-					erro = `A usuario "${usuario.login}" já existe`;
+					erro = `A usuario "${usuario.email}" já existe`;
 				else
 					throw e;
 			}

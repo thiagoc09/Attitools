@@ -48,7 +48,6 @@
             ></lottie-player>
             <input type="text" id="inputNome" placeholder="Nome Completo" required/>
             <input type="text" id="inputEmail" placeholder="E-mail" required/>
-            <input type="text" id="inputLogin" placeholder="Usuário" required/>
             <input type="password" id="inputSenha" placeholder="Digite sua senha" required/>
             <i class="fas fa-eye" onclick="show()"></i>
             <br>
@@ -73,12 +72,10 @@
 
         let inputNome = document.getElementById("inputNome");
         let inputEmail = document.getElementById("inputEmail");
-        let inputLogin = document.getElementById("inputLogin");
         let inputSenha = document.getElementById("inputSenha");
 
         let nome = inputNome.value;
         let email = inputEmail.value;
-        let login = inputLogin.value;
         let senha = inputSenha.value;
 
         if (!nome) {
@@ -91,11 +88,6 @@
           return;
         }
 
-        if (!login) {
-          Swal.fire("Oops...", "Usuário inválido!", "error");
-          return;
-        }
-
         if (!senha) {
           Swal.fire("Oops...", "Senha inválida!", "error");
           return;
@@ -104,7 +96,6 @@
         let usuario = {
           "nome": nome,
           "email": email,
-          "login": login,
           "senha": senha
         };
 
