@@ -5,7 +5,11 @@
       <title>Cadastro</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta charset="utf-8" />
-      <link rel="stylesheet" type="text/css" href="/public/css/signup_style.css" />
+      <link
+        rel="stylesheet"
+        type="text/css"
+        href="/public/css/signup_style.css"
+      />
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -15,26 +19,34 @@
         rel="stylesheet"
         type="text/css"
       />
-	
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.8/dist/sweetalert2.min.css" />
+
+      <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.8/dist/sweetalert2.min.css"
+      />
       <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+      <link
+        rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+        crossorigin="anonymous"
+      />
     </head>
 
     <body class="body">
       <div class="header">
-      <div class="limitador">
-            <a href="/" class="logo">ATTITOOLS</a>
-            <div class="header-right">
-              <a class="active" href="/faq">FAQ</a>
-              <a class="active2" href="/empresas">Para Empresas</a>
-    
-              <a href="/login">LOGIN</a>
-              <a href="/contato">Contate-nos</a>
-              <a href="/faq">Ajuda</a>
-            </div>
+        <div class="limitador">
+          <a href="/" class="logo">ATTITOOLS</a>
+          <div class="header-right">
+            <a class="active" href="/faq">FAQ</a>
+            <a class="active2" href="/empresas">Para Empresas</a>
+
+            <a href="/login">LOGIN</a>
+            <a href="/contato">Contate-nos</a>
+            <a href="/faq">Ajuda</a>
           </div>
-          </div>
+        </div>
+      </div>
       <div class="login-page">
         <div class="form">
           <form>
@@ -46,30 +58,40 @@
               loop
               autoplay
             ></lottie-player>
-            <input type="text" id="inputNome" placeholder="Nome Completo" required/>
-            <input type="text" id="inputEmail" placeholder="E-mail" required/>
-            <input type="password" id="inputSenha" placeholder="Digite sua senha" required/>
+            <input
+              type="text"
+              id="inputNome"
+              placeholder="Nome Completo"
+              required
+            />
+            <input type="text" id="inputEmail" placeholder="E-mail" required />
+            <input
+              type="password"
+              id="inputSenha"
+              placeholder="Digite sua senha"
+              required
+            />
             <i class="fas fa-eye" onclick="show()"></i>
-            <br>
-            <br>
+            <br />
+            <br />
           </form>
 
           <form class="login-form">
-            <button type="button" onclick="cadastrar()">
-              Cadastre-se
-            </button>
+            <button type="button" onclick="cadastrar()">Cadastre-se</button>
           </form>
         </div>
       </div>
     </body>
     <!-- jQuery -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+    ></script>
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.8/dist/sweetalert2.all.min.js"></script>
 
     <script>
       function cadastrar() {
-
         let inputNome = document.getElementById("inputNome");
         let inputEmail = document.getElementById("inputEmail");
         let inputSenha = document.getElementById("inputSenha");
@@ -94,9 +116,9 @@
         }
 
         let usuario = {
-          "nome": nome,
-          "email": email,
-          "senha": senha
+          nome: nome,
+          email: email,
+          senha: senha,
         };
 
         let opcoes = {
@@ -104,19 +126,14 @@
           method: "post",
           data: usuario,
           success: function (dados) {
-
             Swal.fire("Sucesso!", "Usuário cadastrado com sucesso!", "success");
-
           },
           error: function () {
-
             Swal.fire("Oops...", "Algo deu errado!", "error");
-
-          }
+          },
         };
 
         $.ajax(opcoes);
-
       }
 
       function show() {
