@@ -10,8 +10,6 @@
 
 img {
   max-width: 100%;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-
 }
 
 .header {
@@ -236,6 +234,9 @@ span {
   background-color: #D4973A;
 } 
 
+.entregaimg {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
 
 .secao4 {
   background-color: #f1f1f1;
@@ -265,6 +266,9 @@ span {
   size: 200px;
 }
 
+.mendimg {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
 
 .secao5 {
   padding: 50px 0px 50px 50px;
@@ -278,6 +282,10 @@ span {
   top: -10px;
   bottom: 50px;
   right: 200px;
+}
+
+.plantaimg {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
 .footer-basic {
