@@ -25,6 +25,8 @@
      font-weight: 360;
      padding-left: 43px;
      text-decoration:none;
+     font-family: 'Segoe UI';
+    font-weight: bold;
    }
    
    .header a:hover {
@@ -33,7 +35,7 @@
    }
    
    .header a.active {
-    background-color: dodgerblue;
+    background-color: black;
     color: white;
     margin-right: 20px;
     padding:12px 66px 12px 66px;
@@ -41,7 +43,7 @@
   }
  
    .header a.active2 {
-     background-color: rgb(255, 158, 30);
+     background-color: black;
      color: white;
      margin-right: 14px;
      text-decoration:none;
@@ -65,6 +67,10 @@
 
    .logo{
      font-weight: bold;
+   }
+
+   .logoo{
+      padding-top: 7px;
    }
    
    .spanlogo {
@@ -179,7 +185,7 @@
 
 .secao5 {
   padding: 50px 0px 50px 50px;
-  background-color: #322F26;
+  background-color:black;
   color: white;
 }
 
