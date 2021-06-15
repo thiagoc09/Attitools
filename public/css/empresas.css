@@ -26,12 +26,23 @@
      padding-left: 43px;
      text-decoration:none;
      font-family: 'Segoe UI';
-    font-weight: bold;
+     font-weight: bold;
    }
+
+   .header a.logoo {
+    font-size: 18px;
+    font-weight: 360;
+    padding-top: 30px;
+    margin-left: -80px;
+    text-decoration:none;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    color: #4717f6;
+  }
    
    .header a:hover {
-     background-color: #ddd;
-     color: black;
+    background-color: transparent;
+    color: #4717f6;
    }
    
    .header a.active {
@@ -74,7 +85,7 @@
    }
    
    .spanlogo {
-     color: #D4973A;
+    color: #4717f6;
    }
 
    .titulo {
@@ -199,4 +210,11 @@
 
 .plantaimg {
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.btn  {
+  background-color: #4717f6;
+  color: white;
+  margin-right: 14px;
+  text-decoration:none;
 }
