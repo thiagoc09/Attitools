@@ -147,11 +147,19 @@ img {
  }
 
 .s2h {
-  color: #D4973A;
+  color: #e4ab56;
   padding-top: 30px;
+  font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 22px;
+
 }
 .spanacao {
-  color: white;
+ color: #e4ab56;
+ color: -webkit-linear-gradient(right, #8DC26F, #e4ab56);
+ color: -moz-linear-gradient(right, #8DC26F, #e4ab56);
+  color: -o-linear-gradient(right, #8DC26F, #e4ab56);
+  color: linear-gradient(to left, #8DC26F, #e4ab56);
   
 }
 
@@ -182,13 +190,18 @@ img {
   top: 0px;
   right: 0px;
   bottom: 0px;
+  font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 22px;
+    padding-top: 50px;
 }
 
 .texto-decoracao2 {
   padding-top: 20px; 
   font-size: 18px;
-  padding-left: 20px;
-    padding-right: 20px;
+  padding-left: 30px;
+    padding-right: 30px;
+    
 }
 
 .btn.btn-primary {
