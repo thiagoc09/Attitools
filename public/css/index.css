@@ -152,6 +152,8 @@ img {
   font-family: 'Segoe UI';
     font-weight: bold;
     font-size: 22px;
+    text-align: left;
+    padding-left: 30px;
 
 }
 .spanacao {
@@ -194,13 +196,16 @@ img {
     font-weight: bold;
     font-size: 22px;
     padding-top: 50px;
+    padding-right: 30px;
+    
 }
 
 .texto-decoracao2 {
   padding-top: 20px; 
   font-size: 18px;
-  padding-left: 30px;
+  padding-left: 40px;
     padding-right: 30px;
+    text-align: left;
     
 }
 
@@ -224,8 +229,15 @@ img {
 
 .secao3 {
   padding: 50px 0px 80px 50px;
+  
+  
 }
-
+.titulo{
+  font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
 .col2 {
   text-align: left;
 }
