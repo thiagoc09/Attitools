@@ -1,3 +1,5 @@
+
+
 .limitador {
 	max-width: 1200px;
  	margin: 0px auto;
@@ -5,7 +7,7 @@
 
 .header {
 	overflow: hidden;
-	background-color: #f1f1f1;
+	background-color: #DDD;
 	padding: 20px 10px;
   }
   
@@ -24,6 +26,8 @@
 	font-size: 25px;
 	font-weight: bold;
 	padding-left: 43px;
+	color: #0e0b16;
+	
   }
   
   .header a:hover {
@@ -37,6 +41,7 @@
 	margin-right: 20px;
 	padding:12px 66px 12px 66px;
 	text-decoration:none; 
+	margin-bottom: 20px;
   }
   .header a.active2 {
 	background-color: rgb(255, 158, 30);
@@ -59,7 +64,23 @@
 	  float: none;
 	}
   }
+  
+ 
 
+  
+  @media screen and (max-width: 500px) {
+	.header a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+	
+	.header-right {
+	  float: none;
+	}
+  }
+
+  
 .panel-heading{
     background-image: linear-gradient(#D4973A, #c78829 60%, #b67718);
     color: #D4973A ;
@@ -209,3 +230,8 @@ footer{
 	padding-top: 40px;
 	}
 }
+
+.page-header{
+	font-size: 24px;
+}
+
