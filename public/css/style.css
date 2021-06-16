@@ -1,5 +1,5 @@
 body {
-	background-color: #f7fcfb;	;
+	background:  #15202B;
 }
 
 
@@ -38,8 +38,7 @@ body {
   }
   
   .header a:hover {
-	background: linear-gradient(to left, #8DC26F, #e4ab56);
-	color: black;
+	background: #18518a;
   }
   
   .header a.active {
@@ -153,8 +152,18 @@ body {
 	padding-bottom: 20px;
 }
 
-.comment-form .form-group{
-	width: 90%;
+.imgperfil {
+	width: 200px;
+	height: 200px;
+
+}
+
+.imgAmigo {
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+	padding-top: 10px;
+
 }
 
 .comment{
@@ -227,12 +236,12 @@ body {
 footer{
 	background: #f4f4f4;
 	height: 90px;
-	color: #D4973A;
+	color: #15202B;
 	font-weight: bold;
 	text-align: center;
 	padding-top: 40px;
 	margin-top: 30px;
-	border-top: 7px solid #D4973A;
+	border-top: 7px solid #15202B;
 }
 
 .members .member-row{
@@ -253,5 +262,9 @@ footer{
 
 .page-header{
 	font-size: 24px;
+	color: white;
 }
 
+.nomegrupo {
+	color: white;
+}

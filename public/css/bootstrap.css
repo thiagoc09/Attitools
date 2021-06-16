@@ -3210,7 +3210,7 @@ fieldset[disabled] .btn-info.active {
 .btn-warning.active,
 .open > .dropdown-toggle.btn-warning {
   color: #fff;
-  background-color: #ec971f;
+  background-color: white;
   border-color: #d58512;
 }
 .btn-warning:active,
