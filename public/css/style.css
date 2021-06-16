@@ -1,5 +1,5 @@
 body {
-	background-color: #DFDCE3	;
+	background-color: #f7fcfb;	;
 }
 
 
@@ -11,7 +11,7 @@ body {
 
 .header {
 	overflow: hidden;
-	background: linear-gradient(to left, #8DC26F, #e4ab56);background: linear-gradient(to left, #8DC26F, #e4ab56);	padding: 20px 10px;
+	background: #15202B;	padding: 08px 10px;
   }
   
   .header a {
@@ -23,13 +23,17 @@ body {
 	font-size: 18px; 
 	line-height: 25px;
 	border-radius: 4px;
+	font-family: 'Segoe UI';
+    font-weight: bold;
   }
   
   .header a.logo {
 	font-size: 25px;
 	font-weight: bold;
 	padding-left: 43px;
-	color: #0e0b16;
+	color: white;
+	font-family: 'Segoe UI';
+    font-weight: bold;
 	
   }
   
@@ -74,7 +78,7 @@ body {
  
 	.bot {
 	background-color: #4717f6;
-    color: white;
+    color: #15202B;
     margin-right: 20px;
     padding:12px 66px 12px 66px;
     text-decoration: none;
@@ -93,14 +97,11 @@ body {
 	}
   }
 
-  
-.panel-heading{
-	background: linear-gradient(to left, #8DC26F, #e4ab56);   
-}
 
 .panel-title {
 	color: #322F26;
 	font-weight: bold;
+	
 }
 
 .bubble{
@@ -108,9 +109,9 @@ body {
 	width: 580px;
 	min-height: 65px;
 	padding: 15px;
-	background: #fff;
+	background: #f7fcfb;;
 	border-radius: 10px;
-	border: 1px solid #ccc;
+	border: 2px solid #ccc;
 }
 
 .bubble:after{
@@ -118,7 +119,8 @@ body {
 	position: absolute;
 	border-style: solid;
 	border-width: 15px 15px 15px 0;
-	border-color: transparent #fff;
+	border-color: transparent #15202B;
+	
 	display: block;
 	width: 0;
 	z-index: 1;
