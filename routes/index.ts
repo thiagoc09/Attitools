@@ -51,6 +51,9 @@ class Index {
 	public async sair(req: app.Request, res: app.Response) {
 		res.sendFile(app.dir.views + "/index.html");
 	}
+	public async documentacao(req: app.Request, res: app.Response) {
+		res.sendFile(app.dir.views + "/doc.html");
+	}
 }
 
 export = Index;

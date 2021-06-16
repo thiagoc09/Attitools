@@ -1,14 +1,13 @@
 
-
 .limitador {
 	max-width: 1200px;
  	margin: 0px auto;
 }
 
+
 .header {
 	overflow: hidden;
-	background-color: #DDD;
-	padding: 20px 10px;
+	background: linear-gradient(to left, #8DC26F, #e4ab56);background: linear-gradient(to left, #8DC26F, #e4ab56);	padding: 20px 10px;
   }
   
   .header a {
@@ -31,7 +30,7 @@
   }
   
   .header a:hover {
-	background-color: #ddd;
+	background: linear-gradient(to left, #8DC26F, #e4ab56);
 	color: black;
   }
   
@@ -92,8 +91,7 @@
 
   
 .panel-heading{
-    background-image: linear-gradient(#D4973A, #c78829 60%, #b67718);
-    color: #D4973A ;
+	background: linear-gradient(to left, #8DC26F, #e4ab56);   
 }
 
 .panel-title {
