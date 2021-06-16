@@ -65,15 +65,18 @@
 	}
   }
   
+	.sair {
+	color: red;
+  }
  
-.bot {
+	.bot {
 	background-color: #4717f6;
     color: white;
     margin-right: 20px;
     padding:12px 66px 12px 66px;
     text-decoration: none;
 	border-radius: 5px;
-}
+  }
   
   @media screen and (max-width: 500px) {
 	.header a {

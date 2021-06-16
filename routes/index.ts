@@ -39,6 +39,18 @@ class Index {
 	public async members(req: app.Request, res: app.Response) {
 		res.sendFile(app.dir.views + "/members.html");
 	}
+
+	public async descobrir(req: app.Request, res: app.Response) {
+		res.sendFile(app.dir.views + "/descobrir.html");
+	}
+
+	public async pontos(req: app.Request, res: app.Response) {
+		res.sendFile(app.dir.views + "/pontos.html");
+	}
+
+	public async sair(req: app.Request, res: app.Response) {
+		res.sendFile(app.dir.views + "/index.html");
+	}
 }
 
 export = Index;
