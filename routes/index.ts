@@ -54,6 +54,10 @@ class Index {
 	public async documentacao(req: app.Request, res: app.Response) {
 		res.sendFile(app.dir.views + "/doc.html");
 	}
+
+	public async perfil73721(req: app.Request, res: app.Response) {
+		res.sendFile(app.dir.views + "/rafa.html");
+	}
 }
 
 export = Index;
