@@ -1,145 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
-  <html>
-    <head>
-      <title>Cadastro</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta charset="utf-8" />
-      <link
-        rel="stylesheet"
-        type="text/css"
-        href="/public/css/signup_style.css"
-      />
-      <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      />
-      <link
-        href="https://fonts.googleapis.com/css?family=Titillium+Web:400,300,600"
-        rel="stylesheet"
-        type="text/css"
-      />
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.8/dist/sweetalert2.min.css"
-      />
-      <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-      <link
-        rel="stylesheet"
-        href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-        crossorigin="anonymous"
-      />
-    </head>
+		<title>Attitools</title>
 
-    <body class="body">
-      <div class="header">
-        <div class="limitador">
-          <a href="/" class="logo">ATTITOOLS</a>
-          
-        </div>
-      </div>
-      <div class="login-page">
-        <div class="form">
-          <form>
-            <lottie-player
-              src="https://assets4.lottiefiles.com/datafiles/XRVoUu3IX4sGWtiC3MPpFnJvZNq7lVWDCa8LSqgS/profile.json"
-              background="transparent"
-              speed="1"
-              style="justify-content: center"
-              loop
-              autoplay
-            ></lottie-player>
-            <input
-              type="text"
-              id="inputNome"
-              placeholder="Nome Completo"
-              required
-            />
-            <input type="text" id="inputEmail" placeholder="E-mail" required />
-            <input
-              type="password"
-              id="inputSenha"
-              placeholder="Digite sua senha"
-              required
-            />
-            <i class="fas fa-eye" onclick="show()"></i>
-            <br />
-            <br />
-          </form>
+		<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
-          <form class="login-form">
-            <button type="button" onclick="cadastrar()">Cadastre-se</button>
-          </form>
-        </div>
-      </div>
-    </body>
-    <!-- jQuery -->
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-    ></script>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
 
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.8/dist/sweetalert2.all.min.js"></script>
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
-    <script>
-      function cadastrar() {
-        let inputNome = document.getElementById("inputNome");
-        let inputEmail = document.getElementById("inputEmail");
-        let inputSenha = document.getElementById("inputSenha");
+		<!-- Bootstrap 3 -->
+		<link rel="stylesheet" type="text/css" href="/public/lib/bootstrap/css/bootstrap.min.css" />
+		<script type="text/javascript" src="/public/lib/bootstrap/js/bootstrap.min.js"></script>
 
-        let nome = inputNome.value;
-        let email = inputEmail.value;
-        let senha = inputSenha.value;
+		<link rel="stylesheet" type="text/css" href="/public/css/externo.css" />
+		<link rel="stylesheet" type="text/css" href="/public/css/signup_style.css" />
+	</head>
 
-        if (!nome) {
-          Swal.fire("Oops...", "Nome inválido!", "error");
-          return;
-        }
+	<body class="body">
+		<header>
+			<div class="limitador header">
+				<a href="/" class="logo">ATTITOOLS</a>
+				<div class="header-right">
+					<a class="active" href="/faq">FAQ</a>
+					<a class="active2" href="/empresas">Para Empresas</a>
 
-        if (!email) {
-          Swal.fire("Oops...", "E-mail inválido!", "error");
-          return;
-        }
+					<a href="/login" class="branco">LOGIN</a>
+					<a href="/#form-contato" class="branco">Contate-nos</a>
+					<a href="/faq" class="branco">Ajuda</a>
+				</div>
+			</div>
+		</header>
 
-        if (!senha) {
-          Swal.fire("Oops...", "Senha inválida!", "error");
-          return;
-        }
+    <div class="login-page">
+			<div class="form">
+				<form>
+					<lottie-player
+						src="https://assets4.lottiefiles.com/datafiles/XRVoUu3IX4sGWtiC3MPpFnJvZNq7lVWDCa8LSqgS/profile.json"
+						background="transparent"
+						speed="1"
+						style="justify-content: center"
+						loop
+						autoplay
+					></lottie-player>
+					<input type="text" id="inputNome" placeholder="Nome Completo" required />
+					<input type="text" id="inputEmail" placeholder="E-mail" required />
+					<input type="password" id="inputSenha" placeholder="Digite sua senha" required />
+					<i class="fas fa-eye" onclick="show()"></i>
+					<br />
+					<br />
+				</form>
 
-        let usuario = {
-          nome: nome,
-          email: email,
-          senha: senha,
-        };
+				<form class="login-form">
+					<button type="button" onclick="cadastrar()">Cadastre-se</button>
+				</form>
+			</div>
+		</div>
+	</body>
+	<!-- jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 
-        let opcoes = {
-          url: "/api/usuario/criar",
-          method: "post",
-          data: usuario,
-          success: function (dados) {
-            Swal.fire("Usuário cadastrado! Seu e-mail foi registrado.", "Você será notificado quando a plataforma for lançada!", "success");
-          },
-          error: function () {
-            Swal.fire("Oops...", "Algo deu errado!", "error");
-          },
-        };
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.8/dist/sweetalert2.all.min.js"></script>
 
-        $.ajax(opcoes);
-      }
+	<script>
+		function cadastrar() {
+			let inputNome = document.getElementById("inputNome");
+			let inputEmail = document.getElementById("inputEmail");
+			let inputSenha = document.getElementById("inputSenha");
 
-      function show() {
-        var password = document.getElementById("password");
-        var icon = document.querySelector(".fas");
+			let nome = inputNome.value;
+			let email = inputEmail.value;
+			let senha = inputSenha.value;
 
-        // ========== Checking type of password ===========
-        if (password.type === "password") {
-          password.type = "text";
-        } else {
-          password.type = "password";
-        }
-      }
-    </script>
-  </html>
+			if (!nome) {
+				Swal.fire("Oops...", "Nome inválido!", "error");
+				return;
+			}
+
+			if (!email) {
+				Swal.fire("Oops...", "E-mail inválido!", "error");
+				return;
+			}
+
+			if (!senha) {
+				Swal.fire("Oops...", "Senha inválida!", "error");
+				return;
+			}
+
+			let usuario = {
+				nome: nome,
+				email: email,
+				senha: senha
+			};
+
+			let opcoes = {
+				url: "/api/usuario/criar",
+				method: "post",
+				data: usuario,
+				success: function (dados) {
+					Swal.fire(
+						"Usuário cadastrado! Seu e-mail foi registrado.",
+						"Você será notificado quando a plataforma for lançada!",
+						"success"
+					);
+				},
+				error: function () {
+					Swal.fire("Oops...", "Algo deu errado!", "error");
+				}
+			};
+
+			$.ajax(opcoes);
+		}
+
+		function show() {
+			var password = document.getElementById("password");
+			var icon = document.querySelector(".fas");
+
+			// ========== Checking type of password ===========
+			if (password.type === "password") {
+				password.type = "text";
+			} else {
+				password.type = "password";
+			}
+		}
+	</script>
 </html>

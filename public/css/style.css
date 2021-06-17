@@ -1,135 +1,131 @@
 body {
-	background:  #15202B;
+	background: #15202b;
 }
-
 
 .limitador {
 	max-width: 1200px;
- 	margin: 0px auto;
+	margin: 0px auto;
 }
-
 
 .header {
 	overflow: hidden;
-	background: #15202B;	padding: 08px 10px;
-  }
-  
-  .header a {
+	background: #15202b;
+	padding: 08px 10px;
+}
+
+.header a {
 	float: left;
 	color: black;
 	text-align: center;
 	padding: 12px;
 	text-decoration: none;
-	font-size: 18px; 
+	font-size: 18px;
 	line-height: 25px;
 	border-radius: 4px;
-	font-family: 'Segoe UI';
-    font-weight: bold;
-  }
-  
-  .header a.logo {
+	font-family: "Segoe UI";
+	font-weight: bold;
+}
+
+.header a.logo {
 	font-size: 25px;
 	font-weight: bold;
 	padding-left: 43px;
 	color: white;
-	font-family: 'Segoe UI';
-    font-weight: bold;
-	
-  }
-  
-  .header a:hover {
+	font-family: "Segoe UI";
+	font-weight: bold;
+}
+
+.header a:hover {
 	background: #18518a;
-  }
-  
-  .header a.active {
+}
+
+.header a.active {
 	background-color: dodgerblue;
 	color: white;
 	margin-right: 20px;
-	padding:12px 66px 12px 66px;
-	text-decoration:none; 
+	padding: 12px 66px 12px 66px;
+	text-decoration: none;
 	margin-bottom: 20px;
-  }
-  .header a.active2 {
+}
+.header a.active2 {
 	background-color: rgb(255, 158, 30);
 	color: white;
 	margin-right: 14px;
-  }
-  
-  .header-right {
-	float: right;
-  }
-  
-  @media screen and (max-width: 500px) {
-	.header a {
-	  float: none;
-	  display: block;
-	  text-align: left;
-	}
-	
-	.header-right {
-	  float: none;
-	}
-  }
-  
-	.sair {
-	color: red;
-  }
- 
-	.bot {
-	background-color: #4717f6;
-    color: #15202B;
-    margin-right: 20px;
-    padding:12px 66px 12px 66px;
-    text-decoration: none;
-	border-radius: 5px;
-  }
-  
-  @media screen and (max-width: 500px) {
-	.header a {
-	  float: none;
-	  display: block;
-	  text-align: left;
-	}
-	
-	.header-right {
-	  float: none;
-	}
-  }
-
-
-.panel-title {
-	color: #322F26;
-	font-weight: bold;
-	
 }
 
-.bubble{
+.header-right {
+	float: right;
+}
+
+@media screen and (max-width: 500px) {
+	.header a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+	.header-right {
+		float: none;
+	}
+}
+
+.sair {
+	color: red;
+}
+
+.bot {
+	background-color: #4717f6;
+	color: #15202b;
+	margin-right: 20px;
+	padding: 12px 66px 12px 66px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+	.header a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
+	.header-right {
+		float: none;
+	}
+}
+
+.panel-title {
+	color: #322f26;
+	font-weight: bold;
+}
+
+.bubble {
 	position: relative;
 	width: 580px;
 	min-height: 65px;
 	padding: 15px;
-	background: #f7fcfb;;
+	background: #f7fcfb;
 	border-radius: 10px;
 	border: 2px solid #ccc;
 }
 
-.bubble:after{
-	content:'';
+.bubble:after {
+	content: "";
 	position: absolute;
 	border-style: solid;
 	border-width: 15px 15px 15px 0;
-	border-color: transparent #15202B;
-	
+	border-color: transparent #15202b;
+
 	display: block;
 	width: 0;
 	z-index: 1;
 	margin-top: -15px;
-	left:-15px;
+	left: -15px;
 	top: 50%;
 }
 
-.bubble:before{
-	content:'';
+.bubble:before {
+	content: "";
 	position: absolute;
 	border-style: solid;
 	border-width: 15px 15px 15px 0;
@@ -138,16 +134,16 @@ body {
 	width: 0;
 	z-index: 0;
 	margin-top: -15px;
-	left:-16px;
+	left: -16px;
 	top: 50%;
 }
 
-.nomeperfil{
-	color: #322F26;
+.nomeperfil {
+	color: #322f26;
 }
 
-.post-actions{
-	margin:5px;
+.post-actions {
+	margin: 5px;
 }
 
 .imgpost {
@@ -159,7 +155,6 @@ body {
 .imgperfil {
 	width: 200px;
 	height: 200px;
-
 }
 
 .imgAmigo {
@@ -167,104 +162,103 @@ body {
 	height: 50px;
 	padding: 5px;
 	padding-top: 10px;
-
 }
 
-.comment{
+.comment {
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	padding: 3px;
 	margin: 5px 0;
 	overflow: auto;
-	width:100%;
-}
-
-.comment-form input[type="text"]{
 	width: 100%;
 }
 
-.comment-avatar img{
+.comment-form input[type="text"] {
+	width: 100%;
+}
+
+.comment-avatar img {
 	width: 40px;
 	margin-right: 5px;
 }
 
-.friends li{
+.friends li {
 	list-style: none;
-	padding:0 5px;
-	display:inline;
-	float:left;
+	padding: 0 5px;
+	display: inline;
+	float: left;
 }
 
-.friends img{
+.friends img {
 	width: 55px;
 }
 
-.groups img{
-	width:80px;
-	float:left;
+.groups img {
+	width: 80px;
+	float: left;
 	margin-right: 15px;
 }
 
-.group-item{
+.group-item {
 	padding-bottom: 10px;
 	margin-bottom: 20px;
 	border-bottom: 1px solid #ccc;
 	overflow: auto;
 }
 
-.profile ul{
+.profile ul {
 	margin-top: 30px;
 }
 
-.profile li{
+.profile li {
 	list-style: none;
 	line-height: 1.9em;
 }
 
-.photos{
+.photos {
 	margin: 0;
 	padding: 0;
 }
 
-.photos li{
+.photos li {
 	list-style: none;
 	float: left;
-	margin:5px;
+	margin: 5px;
 	width: 23%;
 }
 
-.photos img{
-	width:100%;
+.photos img {
+	width: 100%;
 }
 
-footer{
+footer {
 	background: #f4f4f4;
 	height: 90px;
-	color: #15202B;
+	color: #15202b;
 	font-weight: bold;
 	text-align: center;
 	padding-top: 40px;
 	margin-top: 30px;
-	border-top: 7px solid #15202B;
+	border-top: 7px solid #15202b;
 }
 
-.members .member-row{
+.members .member-row {
 	border-bottom: 1px solid #ccc;
 	padding-bottom: 20px;
 	margin-bottom: 20px;
 }
 
-.members img{
+.members img {
 	margin-bottom: 5px;
 }
 
-@media(min-width: 991px){
-  .members p{
-	padding-top: 40px;
+@media (min-width: 991px) {
+	.members p {
+		padding-top: 40px;
 	}
 }
 
-.page-header{
+.page-header {
 	font-size: 24px;
 	color: white;
 }
@@ -274,7 +268,7 @@ footer{
 }
 
 .gpnome {
-	color: #322F26;
+	color: #322f26;
 }
 
 .infoperfil {

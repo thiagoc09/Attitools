@@ -1,238 +1,116 @@
-.limitador{
-    max-width: 1200px;
-      margin: 0px auto;
+
+.titulo {
+	color: white;
+	text-align: left;
+	font-family: "Segoe UI";
+	font-weight: bold;
+	font-size: 32px;
+  padding: 60px 30px;
+	background-image: url(/public/img/chique.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 80px;
+	margin-bottom: 0px;
 }
 
+.filan {
+	text-align: center;
+	padding-top: 50px;
+	font-family: "Segoe UI";
+	font-weight: bold;
+	font-size: 40px;
+}
 
-.limitador{
-    max-width: 1200px;
-    margin: 0px auto;
-  }
-  .header {
-    overflow: hidden;
-    background: #f1f1f1;
-    padding: 08px 10px;
-    padding-top: 8px;
-    padding-right: 10px;
-    padding-bottom: 8px;
-    padding-left: 10px;
-    }
-  
-  .header a {
-    font-weight: bolder;
-    float: left;
-    color: black;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px; 
-    line-height: 25px;
-    border-radius: 4px;
-  }
-  
-  .header a.logo {
-    font-size: 25px;
-    font-weight: 388;
-    padding-left: 43px;
-    color: black;
-    font-family: 'Segoe UI';
-      font-weight: bold
-  }
-  
-  .header a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  .header a.active {
-    background-color: dodgerblue;
-    color: white;
-    margin-right: 20px;
-    padding:12px 66px 12px 66px;
-    text-decoration:none; 
-  }
+.filanp {
+	text-align: center;
+	font-size: 20px;
+	font-family: "Segoe UI";
+	font-weight: bold;
+	padding-top: 20px;
+}
 
-  .header a.active2 {
-    background-color: black;
-    color: white;
-    margin-right: 14px;
-  }
-
- 
-  .header-right {
-    float: right;
-    color: white;
-  }
-  
-  .header-right .branco{
-    color: white;
-  }
-  @media screen and (max-width: 500px) {
-    .header a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    
-    .header-right {
-      float: none;
-    }
-  }
-   
-   @media screen and (max-width: 500px) {
-     .header a {
-       float: none;
-       display: block;
-       text-align: left;
-     }
-     
-     .header-right {
-       float: none;
-     }
-   }
-
-   .logo{
-     font-weight: bold;
-   }
-
-   .logoo{
-      padding-top: 7px;
-   }
-   
-   .spanlogo {
-    color: #e4ab56;
-   }
-
-   .titulo {
-    position: absolute;
-    color:white;
-    text-align: left;
-    top: 180px;
-    margin-left: 90px;
-    margin-top: 60px;
-    font-family: 'Segoe UI';
-    font-weight: bold;
-    font-size: 32px;
-   }
-
-   .chique {
-    width: 1140px;
-    height: 350px;
-    background-image: url(/public/img/chique.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 80px;
-    margin-left: 30px;
-   }
-
-   .filan {
-     text-align: center;
-     padding-top: 50px;
-     font-family: 'Segoe UI';
-    font-weight: bold;
-    font-size: 40px;
-     
-    
-   }
-
-   .filanp {
-     text-align: center;
-     font-size: 20px;
-     font-family: 'Segoe UI';
-    font-weight: bold;
-    padding-top: 20px;
-   }
-
-   .fontep {
-     text-align: center;
-   }
-
-  .body {
-  padding: 80px 0px 50px 50px;
-  background-color: white;
-  font-size: 50px;
-  text-align: center;
- }
+.fontep {
+	text-align: center;
+}
 
 .secao-1 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .coluna {
-  padding: 10px;
+	padding: 10px;
 }
 
 .fundo-coluna {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: black;
-  border-radius: 5px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: black;
+	border-radius: 5px;
 }
 
 .caixat {
-  text-align: center;
-  color: white;
+	text-align: center;
+	color: white;
 }
 
 .empresas2 {
-  margin-top: 50px;
-  padding-top: 50px;
-  text-align: center;
-  background-color: #f1f1f1;
+	margin-top: 50px;
+	padding-top: 50px;
+	text-align: center;
+	background-color: #f1f1f1;
 }
 
-.titulobaixo {font-family: 'Segoe UI';
-  font-weight: bold;
-  font-size: 22px;
-  text-align: center;
-  padding-right: 40px;
-  padding-bottom: 40px;
-  font-size: 25px;
-
+.titulobaixo {
+	font-family: "Segoe UI";
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	font-size: 25px;
 }
 
 .emp2t {
-  font-size: 24px;
-  font-family: 'Segoe UI';
-  font-weight: bold;
-  color: #322F26;
+	font-size: 24px;
+	font-family: "Segoe UI";
+	font-weight: bold;
+	color: #322f26;
 }
 
 .emp2p {
-  font-family: 'Segoe UI';
-  font-size: 19px;
+	font-family: "Segoe UI";
+	font-size: 19px;
 }
 
 .emp2f {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 13px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 13px;
 }
 
 .secao5 {
-  padding: 50px 0px 50px 50px;
-  background-color:black;
-  color: white;
+	padding: 50px 0px 50px 50px;
+	background-color: black;
+	color: white;
 }
 
-.col41{
-  position: absolute;
-  left: -150px;
-  top: -10px;
-  bottom: 50px;
-  right: 200px;
+.col41 {
+	position: absolute;
+	left: -150px;
+	top: -10px;
+	bottom: 50px;
+	right: 200px;
 }
 
 .plantaimg {
-  padding-top: 55px;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-
+	padding-top: 55px;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-.btn  {
-  background-color: #4717f6;
-  color: white;
-  margin-right: 14px;
-  text-decoration:none;
+.btn {
+	background-color: #4717f6;
+	color: white;
+	margin-right: 14px;
+	text-decoration: none;
 }
