@@ -142,6 +142,10 @@ body {
 	top: 50%;
 }
 
+.nomeperfil{
+	color: #322F26;
+}
+
 .post-actions{
 	margin:5px;
 }
@@ -266,5 +270,13 @@ footer{
 }
 
 .nomegrupo {
+	color: white;
+}
+
+.gpnome {
+	color: #322F26;
+}
+
+.infoperfil {
 	color: white;
 }
