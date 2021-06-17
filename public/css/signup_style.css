@@ -61,6 +61,7 @@ body {
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 	transform: translateY(-4px);
 }
+
 .form button:active {
 	transform: translateY(2px);
 	box-shadow: 0 2.5px 5px rgba(0, 0, 0, 0.2);
