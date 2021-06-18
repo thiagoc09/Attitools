@@ -45,7 +45,7 @@ class Index {
 	}
 
 	public async pontos(req: app.Request, res: app.Response) {
-		res.sendFile(app.dir.views + "/pontos.html");
+		res.sendFile(app.dir.views + "/pontosecolab.html");
 	}
 
 	public async sair(req: app.Request, res: app.Response) {
